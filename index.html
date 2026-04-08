@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI in Education: Regulation Over Restriction</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#2563EB",
+                        secondary: "#6366F1",
+                        accent: "#22D3EE",
+                        page: "#F8FAFC",
+                        ink: "#0F172A"
+                    },
+                    boxShadow: {
+                        soft: "0 10px 30px rgba(15, 23, 42, 0.08)"
+                    }
+                }
+            }
+        };
+    </script>
+</head>
+<body class="bg-page text-ink antialiased">
+    <div class="fixed inset-0 -z-10 bg-[radial-gradient(circle_at_1.5px_1.5px,#93c5fd_1.5px,transparent_0)] bg-[size:44px_44px]"></div>
+    <div class="min-h-screen">
+        <header class="sticky top-0 z-50 bg-gradient-to-r from-primary via-secondary to-accent shadow-soft">
+            <nav class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 lg:px-8">
+                <a href="index.html" class="text-lg font-semibold tracking-wide text-white">AI in Education</a>
+                <button id="menu-btn" class="rounded-lg border border-white/30 px-3 py-2 text-white md:hidden" aria-label="Toggle navigation">
+                    <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+                <div class="hidden items-center gap-2 md:flex">
+                    <a href="index.html" aria-current="page" class="rounded-lg bg-white/20 px-4 py-2 text-sm font-medium text-white transition hover:bg-white/30">Home</a>
+                    <a href="research.html" class="rounded-lg px-4 py-2 text-sm font-medium text-white transition hover:bg-white/20">Research</a>
+                    <a href="sources.html" class="rounded-lg px-4 py-2 text-sm font-medium text-white transition hover:bg-white/20">Sources</a>
+                </div>
+            </nav>
+            <div id="mobile-menu" class="hidden border-t border-white/20 px-6 pb-4 md:hidden">
+                <div class="flex flex-col gap-2 pt-4">
+                    <a href="index.html" aria-current="page" class="rounded-lg bg-white/20 px-4 py-3 text-sm font-medium text-white">Home</a>
+                    <a href="research.html" class="rounded-lg px-4 py-3 text-sm font-medium text-white transition hover:bg-white/20">Research</a>
+                    <a href="sources.html" class="rounded-lg px-4 py-3 text-sm font-medium text-white transition hover:bg-white/20">Sources</a>
+                </div>
+            </div>
+        </header>
+
+        <main class="mx-auto max-w-6xl px-6 py-12 lg:px-8 lg:py-16">
+            <section class="rounded-3xl bg-gradient-to-r from-primary via-secondary to-accent px-8 py-16 text-white shadow-soft lg:px-12">
+                <div class="max-w-3xl">
+                    <p class="text-sm font-semibold uppercase tracking-[0.25em] text-white/80">Home</p>
+                    <h1 class="mt-4 text-4xl font-bold leading-tight md:text-6xl">AI in Education: Regulation Over Restriction</h1>
+                    <p class="mt-6 text-lg leading-8 text-white/90 md:text-xl">
+                        Artificial intelligence is reshaping how students learn, write, research, and solve problems. The central question is not whether AI belongs in education, but how schools can govern its use without weakening authentic learning.
+                    </p>
+                    <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+                        <a href="research.html" class="rounded-lg bg-white px-6 py-3 text-sm font-semibold text-primary transition hover:bg-slate-100">Read the Research</a>
+                        <a href="sources.html" class="rounded-lg border border-white/40 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10">View Works Cited</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="mt-12 grid gap-6 lg:grid-cols-2">
+                <article class="rounded-2xl bg-white/80 p-8 shadow-soft backdrop-blur-md transition hover:-translate-y-1 hover:shadow-lg">
+                    <h2 class="text-2xl font-semibold text-primary">Overview of the Issue</h2>
+                    <p class="mt-4 leading-8 text-slate-700">
+                        AI tools can help students brainstorm, summarize, and revise; however, they can also be used to circumvent the intellectual processes that assignments are designed to develop. When students rely on generated responses instead of constructing their own ideas, schools face new questions about academic integrity, fairness, and authentic learning.
+                    </p>
+                    <p class="mt-4 leading-8 text-slate-700">
+                        Research on AI in education identifies several interconnected concerns, including moral dissonance in student work, uncertainty among teachers, inconsistent policy guidance, and the need for AI literacy. Taken together, these concerns suggest that regulation is more effective than simple restriction.
+                    </p>
+                </article>
+
+                <article class="rounded-2xl bg-white/80 p-8 shadow-soft backdrop-blur-md transition hover:-translate-y-1 hover:shadow-lg">
+                    <h2 class="text-2xl font-semibold text-primary">Why AI Matters in Education</h2>
+                    <p class="mt-4 leading-8 text-slate-700">
+                        AI matters because students will continue to encounter and use these tools both in school and beyond it. Classrooms cannot ignore a technology that already shapes writing, research, and communication. Instead, education must teach students how to use AI responsibly while preserving the value of independent thought.
+                    </p>
+                    <p class="mt-4 leading-8 text-slate-700">
+                        When integrated thoughtfully, AI can support tutoring, organization, and accessibility. When used without clear boundaries, it can weaken critical thinking and make it more difficult for teachers to determine what students genuinely understand.
+                    </p>
+                </article>
+            </section>
+
+            <section class="mt-12">
+                <div class="rounded-2xl border-l-8 border-accent bg-white/80 p-8 shadow-soft backdrop-blur-md">
+                    <p class="text-sm font-semibold uppercase tracking-[0.25em] text-secondary">Core Argument</p>
+                    <h2 class="mt-3 text-3xl font-bold text-primary">Regulation over restriction</h2>
+                    <p class="mt-4 max-w-4xl leading-8 text-slate-700">
+                        Schools should not respond to AI with blanket bans. A stronger approach is to regulate how AI is used through classroom expectations, disclosure practices, teacher support, and AI literacy instruction. Regulation protects academic integrity while still preparing students for a future in which AI will remain part of learning and professional life.
+                    </p>
+                </div>
+            </section>
+
+            <section class="mt-12 grid gap-6 md:grid-cols-3">
+                <article class="rounded-2xl bg-white/80 p-6 shadow-soft backdrop-blur-md transition hover:-translate-y-1 hover:shadow-lg">
+                    <h3 class="text-xl font-semibold text-primary">Moral Dissonance</h3>
+                    <p class="mt-3 leading-7 text-slate-700">
+                        Caling demonstrates that AI-generated academic work can create a conflict between submitted performance and genuine student effort.
+                    </p>
+                </article>
+                <article class="rounded-2xl bg-white/80 p-6 shadow-soft backdrop-blur-md transition hover:-translate-y-1 hover:shadow-lg">
+                    <h3 class="text-xl font-semibold text-primary">Teacher Uncertainty</h3>
+                    <p class="mt-3 leading-7 text-slate-700">
+                        Alvarez highlights how teachers are being asked to adapt in real time, often without clear institutional guidance.
+                    </p>
+                </article>
+                <article class="rounded-2xl bg-white/80 p-6 shadow-soft backdrop-blur-md transition hover:-translate-y-1 hover:shadow-lg">
+                    <h3 class="text-xl font-semibold text-primary">Policy and Literacy</h3>
+                    <p class="mt-3 leading-7 text-slate-700">
+                        Malkus and Riegel point toward long-term solutions grounded in policy development and AI literacy.
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <footer class="border-t border-slate-200 bg-white">
+            <div class="mx-auto max-w-6xl px-6 py-6 text-sm text-slate-600 lg:px-8">
+                <p>AI in Education: Regulation Over Restriction</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        const menuBtn = document.getElementById("menu-btn");
+        const mobileMenu = document.getElementById("mobile-menu");
+
+        if (menuBtn && mobileMenu) {
+            menuBtn.addEventListener("click", () => {
+                mobileMenu.classList.toggle("hidden");
+            });
+        }
+    </script>
+</body>
+</html>
